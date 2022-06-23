@@ -1,0 +1,70 @@
+.home {
+    background-image: url(../images/2iiH.gif);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    min-height: 100vh;
+}
+
+#mystery {
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0rem 0rem 1.5rem rgb(16, 225, 240);
+    text-decoration: none;
+}
+
+.mystery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 33.33%;
+}
+
+#lolcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#bright {
+    color: aqua;
+    font-size: 2em;
+}
+
+.dark-mode {
+    background-color: black;
+    color: rgb(16, 225, 240);
+}
+
+.darkedit {
+    border-style: none;
+    align-content: flex-start;
+    min-height: 100vh;
+    width: 33.33%;
+}
+
+.registeredit {
+    display: flex;
+    border-style: none;
+    flex-direction: row-reverse;
+    width: 33.33%;
+    height: 10%;
+}
+
+.buttnaked {
+    border-style: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0rem 0rem 1.5rem rgb(16, 225, 240);
+}
+
+button:hover {
+    color: rgb(16, 225, 240);
+    text-shadow: 0rem 0rem 1.5rem rgb(0, 0, 0);
+}

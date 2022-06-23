@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block content %}
+
+<body class="home" id="dark-mode">
+    <div class="darkedit">
+        <button onclick="darkMode()" class="buttnaked">Dark Mode</button>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js')}}"></script>
+    <div class="mystery">
+        <a href="{{ url_for('views.random') }}" target='_blank' id="mystery">Mystery Link</a>
+    </div>
+    <div class="registeredit">
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="buttnaked">
+            Register/Login
+        </button>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-signin" action="/" method="POST">
+                        <h2 class="form-signin-heading">Sign up here</h2>
+                        {{ form.hidden_tag() }}
+                        {{ wtf.form_field(form.username) }}
+                        {{ wtf.form_field(form.email) }}
+                        {{ wtf.form_field(form.password) }}
+                        <button type="submit">Register</button>
+                    </form>
+                    <form class="form-signin" action="/" method="POST">
+                        <h2 class="form-signin-heading">Sign in here</h2>
+                        {{ form2.hidden_tag() }}
+                        {{ wtf.form_field(form2.username) }}
+                        {{ wtf.form_field(form2.password) }}
+                        {{ wtf.form_field(form2.remember) }}
+                        <button type="submit">Sign in</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock %}

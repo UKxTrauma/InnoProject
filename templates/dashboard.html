@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block content %}
+
+<body id="home">
+    <h1>MYSTERY LINK</h1>
+    <h2 class="page-header" id="bright">Welcome, {{ name }}</h2>
+    <nav>
+        <a href="{{ url_for('views.lol') }}">LOL</a>
+        <a href="{{ url_for('views.pokemon') }}">Pokemon</a>
+        <a href="{{ url_for('views.familyguy') }}">Family Guy</a>
+    </nav>
+</body>
+{% endblock %}
