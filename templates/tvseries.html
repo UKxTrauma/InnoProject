@@ -1,46 +1,44 @@
 {% extends 'base.html' %}
 {% block content %}
-<body class="bodyex">
-    <div id="tvbody">
-        <div>
-            <h1 class="top">POKÉMON</h1>
-        </div>
-        <nav>
-            <a href="{{ url_for('views.pokemon') }}" class="custom-nav-links">HOME</a>
-            <a href="{{ url_for('views.games') }}" class="custom-nav-links">GAMES</a>
-            <a href="{{ url_for('views.tvseries') }}" class="custom-nav-links">TV SERIES</a>
-            <a href="{{ url_for('views.movies') }}" class="custom-nav-links">MOVIES</a>
-        </nav>
-        <div id="pokebox">
-            <h2 class="head">POKÉMON TV SERIES</h2>
-            <ol>
-                <li>Pokémon: Indigo League (79 Episodes)</li>
-                <li>Pokémon: Adventures in the Orange Islands (36 Episodes)</li>
-                <li>Pokémon: The Johto Journeys (41 Episodes)</li>
-                <li>Pokémon: Johto League Champions (52 Episodes)</li>
-                <li>Pokémon: Master Quest (64 Episodes)</li>
-                <li>Pokémon: Advanced (40 Episodes)</li>
-                <li>Pokémon: Advanced Challenge (52 Episodes)</li>
-                <li>Pokémon: Advanced Battle (52 Episodes)</li>
-                <li>Pokémon: Battle Frontier (47 Episodes)</li>
-                <li>Pokémon: Diamond and Pearl (51 Episodes)</li>
-                <li>Pokémon: DP Battle Dimension (52 Episodes)</li>
-                <li>Pokémon: DP Galactic Battles (52 Episodes)</li>
-                <li>Pokémon: DP Sinnoh League Victors (34 Episodes)</li>
-                <li>Pokémon: Black & White (48 Episodes)</li>
-                <li>Pokémon: BW Rival Destinies (49 Episodes)</li>
-                <li>Pokémon: BW Adventures in Unova and Beyond (45 Episodes)</li>
-                <li>Pokémon the Series: XY (48 Episodes)</li>
-                <li>Pokémon the Series: XY Kalos Quest (45 Episodes)</li>
-                <li>Pokémon the Series: XYZ (48 Episodes)</li>
-                <li>Pokémon the Series: Sun & Moon (43 Episodes)</li>
-                <li>Pokémon the Series: Sun & Moon - Ultra Adventures (48 Episodes)</li>
-                <li>Pokémon the Series: Sun & Moon - Ultra Legends (54 Episodes)</li>
-                <li>Pokémon Journeys: The Series (48 Episodes)</li>
-                <li>Pokémon Master Journeys: The Series (42 Episodes)</li>
-                <li>Pokémon Ultimate Journeys: The Series (Ongoing)</li>
-            </ol>
-        </div>
+<body class="bodyex tvbody">
+    <div>
+        <h1 class="top">POKÉMON</h1>
+    </div>
+    <nav>
+        <a href="{{ url_for('views.pokemon') }}" class="custom-nav-links">HOME</a>
+        <a href="{{ url_for('views.games') }}" class="custom-nav-links">GAMES</a>
+        <a href="{{ url_for('views.tvseries') }}" class="custom-nav-links">TV SERIES</a>
+        <a href="{{ url_for('views.movies') }}" class="custom-nav-links">MOVIES</a>
+    </nav>
+    <div id="pokebox">
+        <h2 class="head">POKÉMON TV SERIES</h2>
+        <ol>
+            <li>Pokémon: Indigo League (79 Episodes)</li>
+            <li>Pokémon: Adventures in the Orange Islands (36 Episodes)</li>
+            <li>Pokémon: The Johto Journeys (41 Episodes)</li>
+            <li>Pokémon: Johto League Champions (52 Episodes)</li>
+            <li>Pokémon: Master Quest (64 Episodes)</li>
+            <li>Pokémon: Advanced (40 Episodes)</li>
+            <li>Pokémon: Advanced Challenge (52 Episodes)</li>
+            <li>Pokémon: Advanced Battle (52 Episodes)</li>
+            <li>Pokémon: Battle Frontier (47 Episodes)</li>
+            <li>Pokémon: Diamond and Pearl (51 Episodes)</li>
+            <li>Pokémon: DP Battle Dimension (52 Episodes)</li>
+            <li>Pokémon: DP Galactic Battles (52 Episodes)</li>
+            <li>Pokémon: DP Sinnoh League Victors (34 Episodes)</li>
+            <li>Pokémon: Black & White (48 Episodes)</li>
+            <li>Pokémon: BW Rival Destinies (49 Episodes)</li>
+            <li>Pokémon: BW Adventures in Unova and Beyond (45 Episodes)</li>
+            <li>Pokémon the Series: XY (48 Episodes)</li>
+            <li>Pokémon the Series: XY Kalos Quest (45 Episodes)</li>
+            <li>Pokémon the Series: XYZ (48 Episodes)</li>
+            <li>Pokémon the Series: Sun & Moon (43 Episodes)</li>
+            <li>Pokémon the Series: Sun & Moon - Ultra Adventures (48 Episodes)</li>
+            <li>Pokémon the Series: Sun & Moon - Ultra Legends (54 Episodes)</li>
+            <li>Pokémon Journeys: The Series (48 Episodes)</li>
+            <li>Pokémon Master Journeys: The Series (42 Episodes)</li>
+            <li>Pokémon Ultimate Journeys: The Series (Ongoing)</li>
+        </ol>
     </div>
 </body>
 {% endblock %}

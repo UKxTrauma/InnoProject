@@ -15,6 +15,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 0rem 0rem 1.5rem rgb(16, 225, 240);
     text-decoration: none;
+    text-align: center;
 }
 
 .mystery {
@@ -111,53 +112,41 @@ button:hover {
     margin-bottom: 3vh;
 }
 
-.fgcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #fgfore {
-    background-image: url(../images/Yg6L.gif), url(../images/DCk.gif), url(../images/family-guy.jpg);
+    background-image: url(../images/Yg6L.gif), url(../images/DCk.gif), url(../images/tv-png-443390.png), url(../images/family-guy.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: left, right, top;
-    background-size: 20vmin, 20vmin, cover;
-}
-
-.tv {
-    background-image: url(../images/favpng_yellow-television-media-television-set-screen.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 66.66vh;
-}
-
-.ofhidden {
-    overflow: hidden;
-    box-sizing: border-box;
-    border-radius: 1em;
-    background-color: rgba(162, 247, 247, 0.658);
-    display: flex;
-    max-width: 40vw;
-    max-height: 50vh;
-    margin: 3vh;
+    background-position: left, right, center, top;
+    background-size: 20vmin, 20vmin, 80%, cover;
 }
 
 .smallmarg {
     margin-bottom: 6vh;
-    margin-top: 4vh;
     text-shadow:  0em 0em 0.15em rgb(5, 13, 129);
 }
 
-.fgscript {
-    height: inherit;
+.scriptouter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 7.5vh 7.8vw 3.5vh 5.5vw;
+    padding: 0em 0em 2em 2em;
     overflow-y: auto;
-    color: black;
-    font-weight: bold;
+    max-height: 85vh;
+    position: fixed;
 }
 
-#homebody {
+.fgscript {
+    margin: 6vh 4vw 6vh 4vw;
+    padding: 0em 2em 2em 2em;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(170, 253, 253, 0.76);
+}
+
+.pokebody {
     background-image: url(../images/4m3s.gif), url(../images/pkmnbackground.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -165,7 +154,7 @@ button:hover {
     background-size: 40vmin, cover;
 }
 
-#gamebody {
+.gamebody {
     background-image: url(../images/DD0.gif), url(../images/74t1.gif), url(../images/pkmnbackground.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -173,7 +162,7 @@ button:hover {
     background-size: 40vmin, 40vmin, cover;
 }
 
-#tvbody {
+.tvbody {
     background-image: url(../images/5SvD.gif), url(../images/4hsh.gif), url(../images/pkmnbackground.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -181,7 +170,7 @@ button:hover {
     background-size: 40vmin, 40vmin, cover;
 }
 
-#moviebody {
+.moviebody {
     background-image: url(../images/BRyx.gif), url(../images/Q568.gif), url(../images/pkmnbackground.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;

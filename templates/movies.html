@@ -1,43 +1,41 @@
 {% extends 'base.html' %}
 {% block content %}
-<body class="bodyex">
-    <div id="moviebody">
-        <div>
-            <h1 class="top">POKÉMON</h1>
-        </div>
-        <a href="{{ url_for('views.pokemon') }}" class="custom-nav-links">HOME</a>
-        <a href="{{ url_for('views.games') }}" class="custom-nav-links">GAMES</a>
-        <a href="{{ url_for('views.tvseries') }}" class="custom-nav-links">TV SERIES</a>
-        <a href="{{ url_for('views.movies') }}" class="custom-nav-links">MOVIES</a>
-        <div id="pokebox">
-            <h2 class="head">POKÉMON MOVIES</h2>
-            <ol>
-                <li>Pokémon: The First Movie - Mewtwo Strikes Back (1999)</li>
-                <li>Pokémon: The Movie 2000 - The Power of One (2000)</li>
-                <li>Pokémon 3: The Movie - Spell of the Unown (2001)</li>
-                <li>Pokémon 4Ever: Celebi - Voice of the Forest (2002)</li>
-                <li>Pokémon Heroes: Latios and Latias (2003)</li>
-                <li>Pokémon: Jirachi - Wish Maker (2004)</li>
-                <li>Pokémon: Destiny Deoxys (2005)</li>
-                <li>Pokémon: Lucario and the Mystery of Mew (2006)</li>
-                <li>Pokémon Ranger and the Temple of the Sea (2007)</li>
-                <li>Pokémon: The Rise of Darkrai (2008)</li>
-                <li>Pokémon: Giratina & the Sky Warrior (2008)</li>
-                <li>Pokémon: Arceus and the Jewel of Life (2009)</li>
-                <li>Pokémon - Zoroark: Master of Illusions (2010)</li>
-                <li>Pokémon the Movie: Black - Victini and Reshiram, White - Victini and Zekrom (2011)</li>
-                <li>Pokémon the Movie: Kyurem vs. the Sword of Justice (2012)</li>
-                <li>Pokémon the Movie: Genesect and The Legend Awakened (2013)</li>
-                <li>Pokémon the Movie: Diancie and the Cocoon of Destruction (2014)</li>
-                <li>Pokémon the Movie: Hoopa and the Clash of Ages (2015)</li>
-                <li>Pokémon the Movie: Volcanion and the Mechanical Marvel (2016)</li>
-                <li>Pokémon the Movie: I Choose You! (2017)</li>
-                <li>Pokémon the Movie: The Power of Us (2018)</li>
-                <li>Detective Pikachu (2019)</li>
-                <li>Pokémon: Mewtwo Strikes Back: Evolution (2020)</li>
-                <li>Pokémon the Movie: Secrets of the Jungle (2021)</li>
-            </ol>
-        </div>
+<body class="bodyex moviebody">
+    <div>
+        <h1 class="top">POKÉMON</h1>
+    </div>
+    <a href="{{ url_for('views.pokemon') }}" class="custom-nav-links">HOME</a>
+    <a href="{{ url_for('views.games') }}" class="custom-nav-links">GAMES</a>
+    <a href="{{ url_for('views.tvseries') }}" class="custom-nav-links">TV SERIES</a>
+    <a href="{{ url_for('views.movies') }}" class="custom-nav-links">MOVIES</a>
+    <div id="pokebox">
+        <h2 class="head">POKÉMON MOVIES</h2>
+        <ol>
+            <li>Pokémon: The First Movie - Mewtwo Strikes Back (1999)</li>
+            <li>Pokémon: The Movie 2000 - The Power of One (2000)</li>
+            <li>Pokémon 3: The Movie - Spell of the Unown (2001)</li>
+            <li>Pokémon 4Ever: Celebi - Voice of the Forest (2002)</li>
+            <li>Pokémon Heroes: Latios and Latias (2003)</li>
+            <li>Pokémon: Jirachi - Wish Maker (2004)</li>
+            <li>Pokémon: Destiny Deoxys (2005)</li>
+            <li>Pokémon: Lucario and the Mystery of Mew (2006)</li>
+            <li>Pokémon Ranger and the Temple of the Sea (2007)</li>
+            <li>Pokémon: The Rise of Darkrai (2008)</li>
+            <li>Pokémon: Giratina & the Sky Warrior (2008)</li>
+            <li>Pokémon: Arceus and the Jewel of Life (2009)</li>
+            <li>Pokémon - Zoroark: Master of Illusions (2010)</li>
+            <li>Pokémon the Movie: Black - Victini and Reshiram, White - Victini and Zekrom (2011)</li>
+            <li>Pokémon the Movie: Kyurem vs. the Sword of Justice (2012)</li>
+            <li>Pokémon the Movie: Genesect and The Legend Awakened (2013)</li>
+            <li>Pokémon the Movie: Diancie and the Cocoon of Destruction (2014)</li>
+            <li>Pokémon the Movie: Hoopa and the Clash of Ages (2015)</li>
+            <li>Pokémon the Movie: Volcanion and the Mechanical Marvel (2016)</li>
+            <li>Pokémon the Movie: I Choose You! (2017)</li>
+            <li>Pokémon the Movie: The Power of Us (2018)</li>
+            <li>Detective Pikachu (2019)</li>
+            <li>Pokémon: Mewtwo Strikes Back: Evolution (2020)</li>
+            <li>Pokémon the Movie: Secrets of the Jungle (2021)</li>
+        </ol>
     </div>
 </body>
 {% endblock %}
