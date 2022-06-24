@@ -15,6 +15,18 @@ def pokemon():
 def familyguy():
     return render_template('familyguy.html')
 
+@views.route('/games.html')
+def games():
+    return render_template('games.html')
+
+@views.route('/tvseries.html')
+def tvseries():
+    return render_template('tvseries.html')
+
+@views.route('/movies.html')
+def movies():
+    return render_template('movies.html')
+
 @views.route('/random')
 def random():
     page=randint(1,3)

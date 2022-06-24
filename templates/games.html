@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+{% block content %}
+<body class="bodyex">
+    <div id="gamebody">
+        <div>
+            <h1 class="top">POKÉMON</h1>
+        </div>
+        <nav>
+            <a href="{{ url_for('views.pokemon') }}" class="custom-nav-links">HOME</a>
+            <a href="{{ url_for('views.games') }}" class="custom-nav-links">GAMES</a>
+            <a href="{{ url_for('views.tvseries') }}" class="custom-nav-links">TV SERIES</a>
+            <a href="{{ url_for('views.movies') }}" class="custom-nav-links">MOVIES</a>
+        </nav>
+        <div id="pokebox">
+            <h2 class="head">POKÉMON GAMES & APPS:</h2>
+            <ol>
+                <li>Pocket Monsters Red and Green (1996)</li>
+                <li>Pocket Monsters Blue (1996)</li>
+                <br>
+                <li>Pocket Monsters Stadium (1998)</li>
+                <li>Pokémon Yellow: Special Pikachu Edition (1998)</li>
+                <li>Hey You, Pikachu! (1998)</li>
+                <li>Pokémon Trading Card Game (1998)</li>
+                <br>
+                <li>Pokémon Snap (1999)</li>
+                <li>Pokémon Pinball (1999)</li>
+                <li>Pokémon Stadium (1999)</li>
+                <li>Pokémon Project Studio (1999)</li>
+                <li>Pokémon Gold and Silver (1999)</li>
+                <li>Pokémon Play It! (1999)</li>
+                <br>
+                <li>Pokémon PokéROM Gotta Learn 'em All! (2000)</li>
+                <li>Pokémon Play It! Version 2 (2000)</li>
+                <li>Pokémon Puzzle Challenge (2000)</li>
+                <li>Pokémon Puzzle League (2000)</li>
+                <li>Pokémon Crystal (2000)</li>
+                <li>Pokémon 2000 (2000)</li>
+                <li>Pokémon Stadium 2 (2000)</li>
+                <br>
+                <li>Pokémon Party Mini (2001)</li>
+                <li>Pokémon Pinball Mini (2001)</li>
+                <li>Pokémon Puzzle Collection (2001)</li>
+                <li>Pokémon Puzzle Collection Vol. 2 (2001)</li>
+                <li>Pokémon Zany Cards (2001)</li>
+                <li>Pokémon Tetris (2001)</li>
+                <li>Pokémon Race Mini (2001)</li>
+                <li>Pichu Bros. Mini (2001)</li>
+                <li>Togepi's Great Adventure (2001)</li>
+                <li>Pokémon Breeder Mini (2001)</li>
+                <li>Pokémon Card GB2: Here Comes Great Team Rocket! (2001)</li>
+                <br>
+                <li>Pokémon: Catch the Numbers! (2002)</li>
+                <li>Pokémon Ruby and Sapphire (2002)</li>
+                <br>
+                <li>Pokémon Box: Ruby and Sapphire (2003)</li>
+                <li>Pokémon Channel (2003)</li>
+                <li>Pokémon Pinball: Ruby & Sapphire (2003)</li>
+                <li>Pokémon Advanced Generation: I've Begun Hiragana and Katakana! (2003)</li>
+                <li>Pokémon Colosseum (2003)</li>
+                <br>
+                <li>Pokémon: Masters Arena (2004)</li>
+                <li>Pokémon FireRed and LeafGreen (2004)</li>
+                <li>Pokémon Advanced Generation: Pico for Everyone Pokémon Loud Battle! (2004)</li>
+                <li>Pokémon Emerald (2004)</li>
+                <li>Pokémon Dash (2004)</li>
+                <br>
+                <li>Pokémon XD: Gale of Darkness (2005)</li>
+                <li>Pokémon Advanced Generation: Pokémon Number Battle! (2005)</li>
+                <li>Pokémon Trozei! (2005)</li>
+                <li>Pokémon: Team Turbo (2005)</li>
+                <li>Pokémon Mystery Dungeon: Blue Rescue Team and Red Rescue Team (2005)</li>
+                <br>
+                <li>Pokémon Team Rocket Blast Off (2006)</li>
+                <li>Pokémon Poké Ball Launcher (2006)</li>
+                <li>Pokémon Seek & Find (2006)</li>
+                <li>Pokémon Ranger (2006)</li>
+                <li>Pokémon PC Master (2006)</li>
+                <li>Pokémon Diamond and Pearl (2006)</li>
+                <li>Pokémon Battle Revolution (2006)</li>
+                <li>Pokémate (2006)</li>
+                <br>
+                <li>Intellectual Training Drill Pokémon Diamond and Pearl: Letter and Number Intelligence Game (2007)</li>
+                <li>Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness (2007)</li>
+                <li>Pokémon Battrio (2007)</li>
+                <br>
+                <li>Pokémon Ranger: Shadows of Almia (2008)</li>
+                <li>My Pokémon Ranch (2008)</li>
+                <li>Pokémon Platinum (2008)</li>
+                <br>
+                <li>Pokémon Mystery Dungeon: Explorers of Sky (2009)</li>
+                <li>Pokémon Rumble (2009)</li>
+                <li>Pokémon Mystery Dungeon: Keep Going! Blazing Adventure Squad!,<br>Let's Go! Stormy Adventure Squad!, and Go For It! Light Adventure Squad! (2009)</li>
+                <li>Pokémon HeartGold and SoulSilver (2009)</li>
+                <li>Pokémon Diamond and Pearl: Search for Pokémon! Adventure in the Maze! (2009)</li>
+                <li>Pokémon Card Game Online (2009)</li>
+                <li>PokéPark Wii: Pikachu's Adventure (2009)</li>
+                <br>
+                <li>Pokémon Ranger: Guardian Signs (2010)</li>
+                <li>Pokémon Black and White (2010)</li>
+                <li>Pokémon Best Wishes: Intelligence Training Pokémon Big Sports Meet! (2010)</li>
+                <br>
+                <li>Pokémon TCG Online (2011)</li>
+                <li>Learn with Pokémon: Typing Adventure (2011)</li>
+                <li>Pokémon Card Game: How To Play DS (2011)</li>
+                <li>Pokémon Rumble Blast (2011)</li>
+                <li>PokéPark 2: Wonders Beyond (2011)</li>
+                <br>
+                <li>Pokémon TCG Online (2012)</li>
+                <li>Pokémon Conquest (2012)</li>
+                <li>Pokèmon Dream Radar (2012)</li>
+                <li>Pokémon Black 2 and White 2 (2012)</li>
+                <li>Pokémon Tretta (2012)</li>
+                <li>Pokédex 3D and Pokédex 3D Pro (2012)</li>
+                <li>Pokémon Mystery Dungeon: Gates to Infinity (2012)</li>
+                <br>
+                <li>Pokémon Rumble U (2013)</li>
+                <li>Pokémon Tretta Lab (2013)</li>
+                <li>Pokémon X and Y (2013)</li>
+                <li>Pokémon Bank (2013)</li>
+                <br>
+                <li>Pokémon Battle Trozei (2014)</li>
+                <li>Pokémon Art Academy (2014)</li>
+                <li>Camp Pokémon (2014)</li>
+                <li>Pokémon Omega Ruby and Alpha Sapphire (2014)</li>
+                <br>
+                <li>Pokémon Shuffle (2015)</li>
+                <li>Pokémon Rumble World (2015)</li>
+                <li>Pokkén Tournament (2015)</li>
+                <li>Pokémon Super Mystery Dungeon (2015)</li>
+                <li>Pokémon Picross (2015)</li>
+                <br>
+                <li>Detective Pikachu (2016)</li>
+                <li>Pokémon Go (2016)</li>
+                <li>Pokémon Ga-Olé (2016)</li>
+                <li>Pokémon Sun and Moon (2016)</li>
+                <br>
+                <li>Pokémon Duel (2017)</li>
+                <li>Pokémon: Magikarp Jump (2017)</li>
+                <li>Pokkén Tournament DX (2017)</li>
+                <li>Pokémon Playhouse (2017)</li>
+                <li>Pokémon Ultra Sun and Ultra Moon (2017)</li>
+                <br>
+                <li>Pokémon Quest (2018)</li>
+                <li>Pokémon: Let's Go, Pikachu! and Let's Go, Eevee! (2018)</li>
+                <br>
+                <li>Pokémon Trading Card Game Card Dex (2019)</li>
+                <li>Pokémon Rumble Rush (2019)</li>
+                <li>Pokémon Masters Ex (2019)</li>
+                <li>Pokémon Sword and Shield (2019)</li>
+                <li>Pokémon Medallion Battle (2019)</li>
+                <li>Pokémon Tower Battle (2019)</li>
+                <br>
+                <li>Pokémon Home (2020)</li>
+                <li>Pokémon Mystery Dungeon: Rescue Team DX (2020)</li>
+                <li>Pokémon Smile (2020)</li>
+                <li>Pokémon Café Mix (2020)</li>
+                <li>Pokémon Mezastar (2020)</li>
+                <br>
+                <li>New Pokémon Snap (2021)</li>
+                <li>Pokémon Unite (2021)</li>
+                <li>Pokémon Brilliant Diamond and Shining Pearl (2021)</li>
+                <br>
+                <li>Pokémon Legends: Arceus (2022)</li>
+                <li>Pokémon Scarlet and Violet (2022)</li>
+            </ol>
+        </div>
+    </div>
+</body>
+{% endblock %}

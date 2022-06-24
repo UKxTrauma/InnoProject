@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+
 .home {
     background-image: url(../images/2iiH.gif);
     background-color: rgb(255, 255, 255);
@@ -20,14 +23,6 @@
     align-items: center;
     min-height: 100%;
     width: 33.33%;
-}
-
-#lolcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
 }
 
 #bright {
@@ -67,4 +62,168 @@
 button:hover {
     color: rgb(16, 225, 240);
     text-shadow: 0rem 0rem 1.5rem rgb(0, 0, 0);
+}
+
+.bodyex {
+    font-family: 'Elsie', cursive;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    color:white;
+    padding: 0em;
+    margin: 0em;
+    text-align: center;
+    font-size: clamp(1em, 3vh, 4vh);
+    min-height: 100vh;
+}
+
+.lolimg {
+    background-image: url(../images/99do.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#lolcontainer {
+    display: flex;
+    margin-top: 33.33vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.704);
+    color: white;
+    text-shadow: 0em 0em 0.4em rgb(50, 187, 12);
+    box-shadow: 0em 0em 0.4em rgb(50, 187, 12);
+}
+
+#lolmargin {
+    margin-top: 3vh;
+}
+
+#audiomargin {
+    margin-bottom: 3vh;
+}
+
+.fgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fgfore {
+    background-image: url(../images/Yg6L.gif), url(../images/DCk.gif), url(../images/family-guy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left, right, top;
+    background-size: 20vmin, 20vmin, cover;
+}
+
+.tv {
+    background-image: url(../images/favpng_yellow-television-media-television-set-screen.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 66.66vh;
+}
+
+.ofhidden {
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 1em;
+    background-color: rgba(162, 247, 247, 0.658);
+    display: flex;
+    max-width: 40vw;
+    max-height: 50vh;
+    margin: 3vh;
+}
+
+.smallmarg {
+    margin-bottom: 6vh;
+    margin-top: 4vh;
+    text-shadow:  0em 0em 0.15em rgb(5, 13, 129);
+}
+
+.fgscript {
+    height: inherit;
+    overflow-y: auto;
+    color: black;
+    font-weight: bold;
+}
+
+#homebody {
+    background-image: url(../images/4m3s.gif), url(../images/pkmnbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center, top;
+    background-size: 40vmin, cover;
+}
+
+#gamebody {
+    background-image: url(../images/DD0.gif), url(../images/74t1.gif), url(../images/pkmnbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right, left, top;
+    background-size: 40vmin, 40vmin, cover;
+}
+
+#tvbody {
+    background-image: url(../images/5SvD.gif), url(../images/4hsh.gif), url(../images/pkmnbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left, right, top;
+    background-size: 40vmin, 40vmin, cover;
+}
+
+#moviebody {
+    background-image: url(../images/BRyx.gif), url(../images/Q568.gif), url(../images/pkmnbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right, left, top;
+    background-size: 40vmin, 40vmin, cover;
+}
+
+.custom-nav-links {
+    font-family: 'Monofett', cursive;
+    color: rgb(129, 5, 5);
+    text-shadow: 0em 0em 0.25em rgba(255, 255, 255, 0.774);
+    text-decoration: none;
+    padding: 0.15em 0.45em 0.15em 0.45em;
+}
+
+.head {
+    text-decoration: underline;
+    margin: 1em 1em 0.5em 1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0em 0em 0.15em rgb(129, 5, 5);
+}
+
+#pokebox {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 6vw 2vh 6vw;
+    padding: 0em 2em 2em 2em;
+    box-sizing: border-box;
+    border-radius: 3.5em;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0em 0.1em 0.4em rgb(255, 255, 255);
+    background-color: rgba(56, 55, 55, 0.774);
+    color:rgb(255, 255, 255);
+}
+
+.top {
+    text-align: center;
+    font-family: 'Monofett', cursive;
+    font-size: 8vw;
+    color: rgb(129, 5, 5);
+    font-weight: 100;
+    text-shadow: 0em 0em 0.25em rgba(255, 255, 255, 0.774);
 }

@@ -1,7 +1,21 @@
 {% extends 'base.html' %}
-
 {% block content %}
-<body>
-    <img src="/static/images/pkmnlogo.png">
+<body class="bodyex">
+    <div id="homebody">
+        <div>
+            <h1 class="top">POKÉMON</h1>
+        </div>
+        <nav>
+            <a href="{{ url_for('views.pokemon') }}" class="custom-nav-links">HOME</a>
+            <a href="{{ url_for('views.games') }}" class="custom-nav-links">GAMES</a>
+            <a href="{{ url_for('views.tvseries') }}" class="custom-nav-links">TV SERIES</a>
+            <a href="{{ url_for('views.movies') }}" class="custom-nav-links">MOVIES</a>
+        </nav>
+        <div id="pokebox">
+            <h2 class="head">Interested in the pocket monsters?</h2>
+            <p>Within the Pokémon universe, the little monster-like beings roam the world alongside humans!<br>Wether you are reading, playing or watching Pokémon media, you will always feel a sense of adventure and exploration!<br>There are currently 913 species of Pokémon split throughout the 9 generations with more to be announced from Scarlet & Violet later this year (2022).<br><br>In 1996 Satoshi Tajiri created his original work: Pocket Monsters Red and Green.<br>The pair of Game Boy video games were developed by Game Freak and published by Nintendo.<br>Following numerous remakes and spin-offs, the collection of Pokémon games continues to expand and you may click the link above to see the current list of released Pokémon games.<br><br>The TV Series of Pokémon is also always expanding, almost parallel to the extensive list of Pokémon movies! Feel free to use the links above to see the released media.
+            </p>
+        </div>
+    </div>
 </body>
 {% endblock %}
