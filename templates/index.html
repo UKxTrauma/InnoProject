@@ -5,18 +5,21 @@
 
 <body class="home" id="dark-mode">
     <div class="darkedit">
-        <button onclick="darkMode()" class="buttnaked">Dark Mode</button>
+        <button onclick="darkMode()" class="buttnaked">Colour Mode</button>
     </div>
     <script src="{{ url_for('static', filename='js/main.js')}}"></script>
     <div class="mystery">
         <a href="{{ url_for('views.random') }}" target='_blank' id="mystery">Mystery Link</a>
     </div>
     <div class="registeredit">
-        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="buttnaked">
-            Register/Login
+        <button type="button" class="buttnaked error">
+            Register / Login
         </button>
+        <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="buttnaked">
+            Register/Login
+        </button> -->
     </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -47,6 +50,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 {% endblock %}
