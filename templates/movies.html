@@ -4,10 +4,12 @@
     <div>
         <h1 class="top">POKÉMON</h1>
     </div>
-    <a href="{{ url_for('views.pokemon') }}" class="custom-nav-links">HOME</a>
-    <a href="{{ url_for('views.games') }}" class="custom-nav-links">GAMES</a>
-    <a href="{{ url_for('views.tvseries') }}" class="custom-nav-links">TV SERIES</a>
-    <a href="{{ url_for('views.movies') }}" class="custom-nav-links">MOVIES</a>
+    <nav>
+        <a href="{{ url_for('views.pokemon') }}" class="custom-nav-links">HOME</a>
+        <a href="{{ url_for('views.games') }}" class="custom-nav-links">GAMES</a>
+        <a href="{{ url_for('views.tvseries') }}" class="custom-nav-links">TV SERIES</a>
+        <a href="{{ url_for('views.movies') }}" class="custom-nav-links">MOVIES</a>
+    </nav>
     <div id="pokebox">
         <h2 class="head">POKÉMON MOVIES</h2>
         <ol>
